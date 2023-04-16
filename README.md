@@ -1,4 +1,5 @@
 # terraform-task
+## Requirments
 Networking
 1- create vpc
 2- create internet gateway
