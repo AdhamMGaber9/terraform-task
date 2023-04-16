@@ -1,0 +1,16 @@
+VPC_CIDR="10.0.0.0/16"
+REGION = "us-east-1"
+PUBLIC_SUBNET_1_CIDR="10.0.1.0/24"
+
+PUBLIC_SUBNET_2_CIDR="10.0.2.0/24"
+
+PRIVATE_SUBNET_1_CIDR="10.0.3.0/24"
+PRIVATE_SUBNET_2_CIDR="10.0.4.0/24"
+
+VPC_NAME= "dev"
+
+AMI_ID = "ami-06e46074ae430fba6"
+EC2_TYPE = "t2.micro"
+
+AZ1 = "us-east-1a"
+AZ2 = "us-east-1b"
