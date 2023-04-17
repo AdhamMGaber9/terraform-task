@@ -10,3 +10,6 @@ PRIVATE_SUBNET_2_CIDR="10.1.4.0/24"
 VPC_NAME = "prod"
 AMI_ID = "ami-06e46074ae430fba6"
 EC2_TYPE = "t2.micro"
+
+AZ1 = "eu-central-1a"
+AZ2 = "eu-central-1b"

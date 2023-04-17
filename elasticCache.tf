@@ -4,7 +4,7 @@ resource "aws_elasticache_subnet_group" "elasticCache_group" {
   subnet_ids = [module.my_network.pri_sub_1 ,module.my_network.pri_sub_2]
 }
 resource "aws_elasticache_cluster" "terraformECache" {
-  cluster_id           = "redis-cluster"
+  cluster_id           = "rediss-cluster"
   engine               = "redis"
   node_type            = "cache.t4g.micro"
   num_cache_nodes      = 1
